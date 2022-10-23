@@ -18,8 +18,8 @@ conndectDb(mongooDb)
 
     // server
 
-    app.listen(port || 4000, ()=>{
-        console.log("application is running on port " , port || 4000);
+    app.listen(port || 5000, ()=>{
+        console.log("application is running on port " , port || 5000);
     });
 
 }).catch((e)=>{
